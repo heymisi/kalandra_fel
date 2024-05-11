@@ -44,7 +44,7 @@ body {
   /* The rest is totally up to personal styling preferences */
   color: black;
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 400%;
+  font-size: 350%;
   font-weight: 600;
   letter-spacing: 6px;
   line-height: 150%;
@@ -54,7 +54,7 @@ body {
   /* Position the element so we can adjust the top property in the animation */
   position: relative;
   /* Making sure the text is fully off the screen at the start and end of the animation */
-  top: -100px;
+  top: -1000px;
   /* Defines the skew origin at the very center when we apply transforms on the animation */
   transform-origin: 50% 100%;
 }
@@ -80,7 +80,7 @@ body {
 @keyframes crawl {
   0% {
     /* The element starts below the screen */
-    top: 0;
+    top: 1000px;
     /* Rotate the text 20 degrees but keep it close to the viewer */
     transform: rotateX(20deg) translateZ(0);
   }
@@ -113,7 +113,7 @@ body {
 #motion-demo {
   offset-path: path("M100,560 L350 590 ");
 
-  animation: move 5000ms infinite alternate ease-in-out;
+  animation: move 4000ms infinite alternate ease-in-out;
   width: 5rem;
   height: 5rem;
 }

@@ -28,7 +28,7 @@
         <p>Történetünk egy bizonyos Májusi napon játszodik a Nyúl évében.</p>
         <p>Méltán hírhedt kalandoraink a számos(már kemény 3) megjárt kalandjuk után egy újabb kihívás után kutatnak.
         </p>
-        <p>Embereink előtt végtelen lehetőség tárulkozik ki, ám ők mégis magabiztosan megragadják újdonsült tevéjük
+        <p>Hőseink előtt végtelen lehetőség tárulkozik ki, ám ők mégis magabiztosan megragadják újdonsült tevéjük
           JÓZSI kantárját és elindulnak A legveszedelmesebb kihívás felé!</p>
         <p>Hogy mi lenne az a kihívás és vajon mikor esik meg az a bizonyos májusi nap, az bizony egy módon derülhet ki
           (majd a reklám után)!
@@ -75,7 +75,6 @@
       console.log(options)
       const response = await fetch("https://eofxjqujc7pr7jq.m.pipedream.net", options);
       const movies = await response.json();
-      console.log(movies);
     }
 
 
@@ -88,7 +87,7 @@
     async function goodClick() {
       setTimeout(async () => {
         await sendReq();
-        // window.location.href = 'https://www.youtube.com/watch?v=ZbZSe6N_BXs&ab_channel=PharrellWilliamsVEVO';
+        window.location.href = 'https://www.youtube.com/watch?v=ZbZSe6N_BXs&ab_channel=PharrellWilliamsVEVO';
       }, 1000)
     }
 
@@ -100,7 +99,7 @@
       document.getElementById("star-wars").style.display = "none";
       document.getElementById("form").style.display = "block";
 
-    }, 30000)
+    }, 28000)
 
 
   </script>
