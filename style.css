@@ -111,9 +111,9 @@ body {
 }
 /*C20,100 200,0 200,100 L200,100  */
 #motion-demo {
-  offset-path: path("M100,560 L350 590 ");
+  offset-path: path("M100,520 L350 550 ");
 
-  animation: move 4000ms infinite alternate ease-in-out;
+  animation: move 6000ms infinite alternate ease-in-out;
   width: 5rem;
   height: 5rem;
 }
