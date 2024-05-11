@@ -86,7 +86,12 @@
     }
     async function goodClick() {
       setTimeout(async () => {
-        await sendReq();
+        try {
+
+          await sendReq();
+        } catch (e) {
+          console.log('e');
+        }
         window.location.href = 'https://www.youtube.com/watch?v=ZbZSe6N_BXs&ab_channel=PharrellWilliamsVEVO';
       }, 1000)
     }
